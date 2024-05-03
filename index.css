@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* background-color: #c9eb00; */
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #f1eee3; */
+    border-radius: 10px;
+    /* position: absolute; */
+}
+
+.body {
+    width: 70%;
+    margin: auto;
+    /* margin-left: 10px; */
+}
+
+.nav-items > ul {
+    display: flex;
+    font-size: 16px;
+}
+
+.logo-container {
+    padding-top: 10px;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+    cursor: pointer;
+    color: #ca9fdf;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.restaurant-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 1;
+}
+
+.restaurant-card {
+    padding: 10px;
+    width: 180px;
+    /* height: 350px; */
+    border: 1px solid transparent;
+    background-color: #f1e7f5;
+    margin: 10px 6px;
+}
+
+.restaurant-card:hover {
+    border: 1px solid #885e9e;
+    border-radius: 10px;
+    background-color: #eddef4;
+}
+
+.search {
+    padding: 10px;
+}
+
+.restaurant-image {
+    width: 100%;
+}
+
+.restaurant-name {
+    color: #5d3e6c;
+    margin-bottom: 12px;
+    margin-top: 5px;
+}
+
+.restaurant-cuisine {
+    color: #7b3e9a;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.restaurant-details {
+    border-top: 1px solid #7b3e9a;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+
+.restaurant-rating-delivery {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.restaurant-rating {
+    /* position: relative; */
+    width: 35px;
+    top: 25px;
+    left: 0px;
+    color: #f0d1ff;
+    background-color: #4e2a60;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.restaurant-cost-for-two {
+    /* position: relative; */
+    font-size: 10px;
+    color: #907b9a;
+    top: 5px;
+    left: 90px;
+}
+
+.restaurant-delivery-time {
+    /* position: relative; */
+    top: -10px;
+    left: 210px;
+    font-size: 12px;
+    color: #a281b3;
+}
