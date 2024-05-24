@@ -3,6 +3,7 @@ import { CON_URL } from '../utils/constants';
 
 const RestaurantCard = (props) => {
     const { resData } = props;
+    // console.log(resData);
 
     const {
         cloudinaryImageId,
@@ -19,7 +20,7 @@ const RestaurantCard = (props) => {
                 id='restaurant-image'
                 src={CON_URL + cloudinaryImageId}
                 width={180}
-                // height={180}
+                height={180}
             />
             <div className='restaurant-details'>
                 <div className='restaurant-introduction'>

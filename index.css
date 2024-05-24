@@ -5,23 +5,35 @@
 }
 
 .header {
-    padding: 10px;
+    padding: 0 10px 10px 10px;
     display: flex;
+    align-items: center;
+    align-content: center;
     justify-content: space-between;
-    /* background-color: #f1eee3; */
-    border-radius: 10px;
+    background-color: #4e2a60;
+    /* border-radius: 10px; */
     /* position: absolute; */
 }
 
 .body {
     width: 70%;
     margin: auto;
+    margin-top: 30px;
     /* margin-left: 10px; */
 }
 
+.buttons {
+    margin: auto;
+    padding-left: 35px;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+}
 .nav-items > ul {
     display: flex;
     font-size: 16px;
+    align-items: center;
 }
 
 .logo-container {
@@ -42,7 +54,7 @@ ul {
 .restaurant-container {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 1;
+    /* flex-basis: 1; */
 }
 
 .restaurant-card {
@@ -58,10 +70,6 @@ ul {
     border: 1px solid #885e9e;
     border-radius: 10px;
     background-color: #eddef4;
-}
-
-.search {
-    padding: 10px;
 }
 
 .restaurant-image {
@@ -121,4 +129,74 @@ ul {
     left: 210px;
     font-size: 12px;
     color: #a281b3;
+}
+
+.filter-button,
+.chinese-button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #885e9e;
+    border: none;
+    border-radius: 5px;
+    color: #eddef4;
+    font-size: 14px;
+    transition: transform 0.5s;
+}
+
+.filter-button:hover,
+.chinese-button:hover {
+    font-size: 14px;
+    color: #4e2a60;
+    transform: scale(1.1);
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-left: 120px;
+    padding-top: 50px;
+}
+
+.shimmer-card {
+    padding: 10px;
+    width: 180px;
+    height: 300px;
+    border: 1px solid transparent;
+    background-color: #f1e7f5;
+    margin: 10px 6px;
+}
+
+.search-btn,
+.login {
+    padding: 10px 20px;
+    background-color: #885e9e;
+    color: #d5c4dd;
+    border: none;
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+.search {
+    padding: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.search-btn:hover {
+    background-color: #7c4597;
+}
+
+.search-box {
+    padding: 10px 20px;
+    border-color: #9a62b6;
+    border-radius: 5px;
+    margin: 0 25px;
+    max-width: 550px;
+    width: 100%;
+}
+
+.search-box:focus {
+    outline: none;
 }
